@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  h1{
+    @apply text-3xl w-full  font-bold
+  }
+  p{
+    @apply text-base my-4 text-black/80 space-x-1
+  }
+  .PrimaryButton{
+    @apply py-3 px-6 rounded-md bg-main text-white text-start w-fit my-2
+
+  }
+  .infoCard{
+    @apply py-4 px-10 bg-main/20  md:w-52 text-center text-black/70 xs:w-full
+  }
+  h2{
+    @apply font-bold text-2xl text-txt
+  }
+  h3{
+    @apply text-xl font-semibold
+  }
+  h4{
+    @apply text-lg
+  }
+}
+
+
+:root {
+  line-height: 1.2;
+  font-weight: 400;
+  
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  
+  scroll-behavior: smooth;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  background-image: url('./assets/bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+
+}
+
